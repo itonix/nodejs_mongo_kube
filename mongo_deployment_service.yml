@@ -17,7 +17,7 @@ spec:
         app: mongodb
     spec:
       containers:
-      - name: mongo
+      - name: mongodb
         image: mongo
         
 
