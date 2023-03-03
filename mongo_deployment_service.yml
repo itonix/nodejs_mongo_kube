@@ -3,7 +3,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mymongo
+  name: mongodb
   labels:
     app: mongodb
 spec:
@@ -17,7 +17,7 @@ spec:
         app: mongodb
     spec:
       containers:
-      - name: mongodb
+      - name: mongo
         image: mongo
         
 
@@ -26,7 +26,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mymongosvc
+  name: mongo
 spec:
   selector:
    app: mongodb
