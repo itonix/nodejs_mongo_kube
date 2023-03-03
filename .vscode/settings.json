@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "file:///c%3A/Users/Tony%20Thomas/.vscode/extensions/docsmsft.docs-yaml-0.2.9/out/yaml-support/toc.schema.json": "/toc\\.yml/i",
+        "https://json.schemastore.org/cirrus.json": "vscode-vfs://github/itonix/nodejs_mongo_kube/mongo_deployment_service.yml"
+    }
+}
