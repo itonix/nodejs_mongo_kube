@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mynodejs
+  name: nodejsapp
 spec:
   type: NodePort
   selector:
